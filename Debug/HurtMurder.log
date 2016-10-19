@@ -1,0 +1,21 @@
+﻿  HurtMurder.cpp
+c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(5): warning C4627: #include <windows.h>: пропущен при поиске использования предкомпилированного заголовка
+  c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(5): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(8): warning C4627: #include <stdlib.h>: пропущен при поиске использования предкомпилированного заголовка
+  c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(8): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(9): warning C4627: #include <malloc.h>: пропущен при поиске использования предкомпилированного заголовка
+  c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(9): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(10): warning C4627: #include <memory.h>: пропущен при поиске использования предкомпилированного заголовка
+  c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(10): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(13): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(13): warning C4627: #include "Engine.h": пропущен при поиске использования предкомпилированного заголовка
+  c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(13): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(14): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(14): warning C4627: #include "GameLogic.h": пропущен при поиске использования предкомпилированного заголовка
+  c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(14): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(30): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(16): warning C4603: WIN32_LEAN_AND_MEAN: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+  c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(16): note: Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+  c:\users\давсеподряд\documents\visual studio 2015\projects\hurtmurder\hurtmurder\hurtmurder.cpp(30): note: использование предварительно скомпилированного заголовка
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\ДаВсеПодряд\Documents\Visual Studio 2015\Projects\HurtMurder\Debug\HurtMurder.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

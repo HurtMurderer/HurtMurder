@@ -1,0 +1,32 @@
+﻿  HurtMurder.cpp
+HurtMurder.cpp(21): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(11): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(12): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(14): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(15): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(16): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(17): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(363): warning C4101: opat2: неиспользованная локальная переменная
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(362): warning C4101: opat: неиспользованная локальная переменная
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(956): warning C4552: <: оператор не имеет результата; требуется оператор с побочным действием
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(1427): warning C4101: w: неиспользованная локальная переменная
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(1502): warning C4101: rmindis: неиспользованная локальная переменная
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(1505): warning C4101: l: неиспользованная локальная переменная
+c:\hrtmrd\hrtmrd\hurtmurder\Engine.h(1503): warning C4101: u: неиспользованная локальная переменная
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_DestroyTexture"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_RenderCopy"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_DestroyRenderer"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_Init"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_DestroyWindow"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_ShowSimpleMessageBox"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_SetRenderDrawBlendMode"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_PollEvent"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_FreeSurface"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_IMG_Load"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_CreateRenderer"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_RenderPresent"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_CreateWindow"
+HurtMurder.obj : error LNK2001: неразрешенный внешний символ "_SDL_CreateTextureFromSurface"
+MSVCRT.lib(exe_main.obj) : error LNK2001: неразрешенный внешний символ "_main"
+C:\HRTMRD\hrtmrd\Release\HurtMurder.exe : fatal error LNK1120: неразрешенных внешних элементов: 15

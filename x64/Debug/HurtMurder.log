@@ -1,0 +1,5 @@
+﻿  HurtMurder.cpp
+c:\users\airpoc\documents\hurtmurder\scripts.h(168): warning C4715: MainStream::x: значение возвращается не при всех путях выполнения
+c:\users\airpoc\documents\hurtmurder\scripts.h(173): warning C4715: MainStream::y: значение возвращается не при всех путях выполнения
+  HurtMurder.vcxproj -> C:\Users\airpoc\Documents\HurtMurder\x64\Debug\HurtMurder.exe
+  HurtMurder.vcxproj -> C:\Users\airpoc\Documents\HurtMurder\x64\Debug\HurtMurder.pdb (Full PDB)
