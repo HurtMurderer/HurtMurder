@@ -1,0 +1,96 @@
+#include <rand>;
+
+
+class troll 
+{
+    public:
+    char n_people[150][50]; 
+    int dateyear[150];
+    int alive[150];
+    int sex[150]; // 0 - female ; 1 - male ; 2 - trans(bf male) , 3 - trans (bf female);
+    int orentation[150];
+    char potolagy[150][50];
+    int family[150];
+    int love[150];
+    char religy[150][50];
+    char country[150][50];
+    // just words
+    char i_s_words[150][50];
+    char i_glag[150][50];
+    char s_words[150][50];
+    char s_glag[150][50];
+    // contactcs
+    int conts_i_words[150];
+    void getting_w()
+    {
+        for (int g = 0 ; g < 151 ; g ++)
+        {
+            if (i_s_words[g][0] != '')
+            {
+               cout << " could u write some prem words(j words) for our mission ? " << endl;
+               cin >> i_s_words[g];
+            }
+        }
+    }
+    void r_stereotype(int victim)
+    {
+        char wordsforpred[50][50];
+        int wrdind = 0;
+        cout << " --- proc. r_stereotype -- " << char[victim] << " - analyzing .. " << endl;
+        if (alive[victim] == 1)
+        {
+            if (religy[victim] == "")              
+            {
+                
+            }
+        } else {
+            if (sex[victim] == 0 || sex[victim] == 2)
+            {
+                cout << char[victim] << " - is dead for now , joke cant be completed ; starting process to his (TRIGGERED) family. . ." << endl;
+            } else {
+                cout << char[victim] << " - is dead for now , joke cant be completed ; starting process to his family. . ." << endl;
+            }
+            if (family[victim] != 0)
+            {
+                r_stereotype(family[victim]);
+            }
+        }
+    }
+    void getting_g()
+    {
+        for (int g = 0 ; g < 151 ; g ++)
+        {
+            if (i_glag[g][0] != '')
+            {
+               cout << " could u write some prem words(verb) for our mission ? " << endl;
+               cin >> i_glag[g];
+            }
+        }
+    }    
+    void getting_s()
+    {
+        for (int g = 0 ; g < 151 ; g ++)
+        {
+            if (s_words[g][0] != '')
+            {
+               cout << " could u write some Not prem words(j words) for our mission ? " << endl;
+               cin >> s_words[g];
+            }
+        }
+    }   
+    void getting_s()
+    {
+        for (int g = 0 ; g < 151 ; g ++)
+        {
+            if (s_words[g][0] != '')
+            {
+               cout << " could u write some Not prem words(verb) for our mission ? " << endl;
+               cin >> s_glag[g];
+            }
+        }
+    }
+    void troll(int dateyear , int sex // 1 - male, 0 - female , int)
+    {
+        
+    }
+}

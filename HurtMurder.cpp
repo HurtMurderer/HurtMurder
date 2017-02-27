@@ -1,5 +1,4 @@
-﻿
-#include <windows.h>
+﻿#include <windows.h>
 #include <SDKDDKVer.h>
 #include <stdlib.h>
 #include <malloc.h>
@@ -13,10 +12,12 @@
 #pragma comment(lib, "C:/Program Files (x86)/Windows Kits/8.1/Lib/winv6.3/um/x64/SDL2.lib")
 int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstanse, LPSTR LpszCmdParam, int nCmdindow)
 {
-	MainStream f;
-	MainMessenger f2;
-	NLHE.scripts[1] = f2;
+
+	NLHE.scripts[0] = new Demo();	
+	IncludeCode *g = new MainStream();
+	NLHE.scriptsinds[0] = 0;
+	//NLHE.scriptsinds[1] = 1;
 	NLHE.repeat();
-	f.run();
+    g->run();
 	return 0;
 };
